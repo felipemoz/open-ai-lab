@@ -1,0 +1,11 @@
+resource_group_name = "openai-moz-rg"
+location = "eastus"
+vnet_name = "myprecious-vnet"
+vnet_address_space = ["10.0.0.0/16"]
+subnet_name = "subnet1"
+subnet_address_prefixes = ["10.0.1.0/26"]
+cognitive_account_name = "openai-moz-storage"
+cognitive_account_sku_name = "S0"
+cognitive_account_sku_tier = "Standard"
+subscription_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+
