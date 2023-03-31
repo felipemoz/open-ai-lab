@@ -1,0 +1,9 @@
+vars.tfvars
+terraform.tfstate
+*.backup
+.terraform
+*.swp
+iac/.terraform
+iac/terraform.tfstate
+iac/.terraform.lock.hcl
+iac/terraform.tfstate.backup
